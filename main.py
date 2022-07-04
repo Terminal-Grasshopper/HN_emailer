@@ -30,11 +30,12 @@ content_placeholder += '<br><br>End of message'
 
 print('Composing email...')
 
-server = 'smtp.gmail.com'
+# change teh below values that are in between <>
+server = '<smtp server>'
 port = 587
-sender = '***'
-password = '***'
-receiver = '***'
+sender = '<sender email>'
+password = '<sender password>'
+receiver = '<receiver email>'
 
 msg = MIMEMultipart()
 
